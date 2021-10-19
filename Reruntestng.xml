@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" name="Suite">
+<listeners >
+<listener class-name="org.data.withoutKnowm"></listener>
+</listeners>
+<classes >
+<class name="org.data.A"/>
+</classes>
+  <test name="Test">
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
